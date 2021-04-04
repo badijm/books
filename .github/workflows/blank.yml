@@ -27,6 +27,4 @@ jobs:
 
       - name: Dump directories to file
         run: ls -b |nl -s '. ' -w 1 > README.md
-
-      - name: Move to root
-        run: mv README.md ../.. --force
+  
