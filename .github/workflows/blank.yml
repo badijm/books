@@ -26,5 +26,5 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Dump directories to file
-        run: ls -b |nl -s '. ' -w 1 > README.md
+        run: ls -b |nl -s '. ' -w 1
   
